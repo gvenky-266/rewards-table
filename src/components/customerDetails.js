@@ -13,7 +13,7 @@ const CustomerDetails = ({ customerId }) => {
       try {
         setLoading(true);
         const data = await fetchTransactionData();
-        const customer = data.find((customer) => customer.customerId === customerId);
+        const customer = data.find((customer) => customer.customerId == customerId);
         setTransactions(customer ? customer.transactions : []);
       } catch (err) {
         setError(err.message);
@@ -28,7 +28,7 @@ const CustomerDetails = ({ customerId }) => {
   const filteredTransactions = transactions.filter(transaction =>
     transaction.date.startsWith(selectedMonth)
   );
-
+console.log(transactions,'transactions')
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -42,7 +42,11 @@ const CustomerDetails = ({ customerId }) => {
           <option value="2025-03">March 2025</option>
         </select>
       </div>
-      <RewardsTable transactions={filteredTransactions} />
+      {filteredTransactions.length === 0 ? (
+        <p>No transactions available for the selected month.</p>
+      ) : (
+        <RewardsTable transactions={filteredTransactions} />
+      )}
     </div>
   );
 };

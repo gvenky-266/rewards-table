@@ -7,27 +7,12 @@ h3 {
   color: #2e3b4e;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  cursor: pointer;
-  margin: 5px 0;
-  padding: 10px;
-  background-color: #f4f4f4;
-  border-radius: 5px;
-}
-
-li:hover {
-  background-color: #ddd;
-}
-
 select {
   padding: 8px;
   margin: 10px;
+  width: 200px;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -46,4 +31,12 @@ th {
 
 td {
   background-color: #fafafa;
+}
+
+option {
+  padding: 10px;
+}
+
+.customer-list {
+  margin-bottom: 20px;
 }
