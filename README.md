@@ -19,16 +19,16 @@ This project demonstrates proficiency in React.js and robust application design 
 
 1. **Clone the Repository:**
 
-   * **git clone https://github.com/gvenky-266/rewards-table.git:**
-   * **cd rewards-table:**
+   * **git clone https://github.com/gvenky-266/rewards-table.git**
+   * **cd rewards-table**
 
 2. **Install Dependencies:** Run the following command to install all required packages:
 
-   * **npm install:**
+   * **npm install**
 
 3. **Start the Development Server:** Launch the application locally:
 
-   * **npm start:**
+   * **npm start**
 
    The app will be accessible at http://localhost:3000/.
 
@@ -37,9 +37,9 @@ This project demonstrates proficiency in React.js and robust application design 
 5. **Points Calculation:** Transactions are processed based on the business logic, awarding points according to customer purchases. The points are aggregated by month and displayed for each customer.
 
 6. **Run Tests:** To ensure the correctness of the implementation, run the provided test cases:
-   * **npm test:**
+   * **npm test**
 
 7. **Build the Application:** For production, create a build of the project:
-   * **npm run build:**
+   * **npm run build**
  
    
