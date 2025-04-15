@@ -19,26 +19,27 @@ This project demonstrates proficiency in React.js and robust application design 
 
 1. **Clone the Repository:**
 
-   ![Screenshot 2024-10-08 135344](https://github.com/user-attachments/assets/6422205b-49e3-44c5-9733-472b0dde082d)
+   * **git clone https://github.com/gvenky-266/rewards-table.git:**
+   * **cd rewards-table:**
 
-3. **Install Dependencies:** Run the following command to install all required packages:
+2. **Install Dependencies:** Run the following command to install all required packages:
 
-   ![Screenshot 2024-10-08 135501](https://github.com/user-attachments/assets/68b7f4fb-c448-49ad-af17-440171e80a8a)
+   * **npm install:**
 
-4. **Start the Development Server:** Launch the application locally:
+3. **Start the Development Server:** Launch the application locally:
 
-   ![Screenshot 2024-10-08 135552](https://github.com/user-attachments/assets/ddc6aaae-295a-4359-9989-64c6b3ad546b)
+   * **npm start:**
 
    The app will be accessible at http://localhost:3000/.
 
-5. **Simulate API Data Fetch:** The application simulates fetching transaction data from an API using useEffect. The mock data is displayed once the asynchronous call is completed.
+4. **Simulate API Data Fetch:** The application simulates fetching transaction data from an API using useEffect. The mock data is displayed once the asynchronous call is completed.
 
-6. **Points Calculation:** Transactions are processed based on the business logic, awarding points according to customer purchases. The points are aggregated by month and displayed for each customer.
+5. **Points Calculation:** Transactions are processed based on the business logic, awarding points according to customer purchases. The points are aggregated by month and displayed for each customer.
 
-7. **Run Tests:** To ensure the correctness of the implementation, run the provided test cases:
-   ![Screenshot 2024-10-08 135701](https://github.com/user-attachments/assets/e7c857b4-3740-4975-8c49-7c58e2b7a886)
+6. **Run Tests:** To ensure the correctness of the implementation, run the provided test cases:
+   * **npm test:**
 
-8. **Build the Application:** For production, create a build of the project:
-   ![Screenshot 2024-10-08 135813](https://github.com/user-attachments/assets/4a078470-2279-4162-8b73-5c36c2da080d)
+7. **Build the Application:** For production, create a build of the project:
+   * **npm run build:**
  
    
